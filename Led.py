@@ -2,9 +2,6 @@ from typing import List
 import cv2
 import numpy as np
 from random import randint
-import asyncio
-
-loop = asyncio.get_event_loop()
 
 class Led:
     def __init__(self, led_num:int = 20, pix_width: int = 40, pix_offset:int = 20) -> None:
